@@ -1,2 +1,10 @@
-let s = 'new feature';
-console.log(s);
+let s = 'New feature';
+let b = 'Add commit function';
+
+function commit(message){
+	console.log(`Commit: ${message}`);
+}
+
+commit(s);
+commit(b);
+
