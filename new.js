@@ -1,10 +1,9 @@
-let s = 'New feature';
-let b = 'Add commit function';
+let commits = ["New feature", "Add commit function"];
 
 function commit(message){
 	console.log(`Commit: ${message}`);
 }
 
-commit(s);
-commit(b);
-
+for (let i of commits){
+  commit(i);
+}
