@@ -1,4 +1,4 @@
-let commits = ["New feature", "Add commit function"];
+let commits = ["New feature", "Add commit function", "Create new file"];
 
 function commit(message){
 	console.log(`Commit: ${message}`);
