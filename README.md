@@ -1,2 +1,2 @@
 # git-playground
-Git Playground 
+This is a Git Playground.
