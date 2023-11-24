@@ -1,0 +1,14 @@
+a.js
+b.js
+cool
+ex.sh
+b.js
+cool
+ex.sh
+new.js
+program.txt
+README.md
+
+ls >> program.txt
+
+ls | tee -a program.txt
