@@ -1,3 +1,10 @@
-let a = 'jialong';
-console.log(`Hello, ${a}');
 
+function busting(){
+  function pop(){
+    console.log('Popup~~~');
+  }
+
+  return pop;
+}
+
+busting()()
