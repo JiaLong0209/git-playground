@@ -8,3 +8,9 @@ local times = { 2, 2, 3 }
 for index, value in ipairs(terms) do
   printByTimes(value)(times[index])
 end
+
+local function hello(fun)
+  return function(str) fun('hello, ' .. str) end
+end
+
+hello(print)('jialong')
