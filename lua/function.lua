@@ -1,6 +1,8 @@
 local function hello(str)
-  print("hello, " .. str)
+  return function (x) for i = 1, x or 1 do print(i .. ' hello, ' .. str) end end
 end
 
-hello('world')
-hello('jialong')
+
+
+hello('world')(3)
+hello('jialong')(2)
