@@ -1,10 +1,10 @@
 
-function busting(){
-  function pop(){
-    console.log('Popup~~~');
-  }
+function busting() {
+    function pop() {
+        console.log('Popup~~~');
+    }
 
-  return pop;
+    return pop;
 }
 
 busting()()
