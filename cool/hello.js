@@ -1,17 +1,17 @@
 class printMachine {
-  coustructor(str = '') {
-    this.str = str;
-  }
-
-  printByTimes(times = 1) {
-    for (let i = 0; i < times; i++) {
-      console.log(i, this.str);
+    coustructor(str = '') {
+        this.str = str;
     }
-  }
 
-  print(str = this.str) {
-    console.log(str);
-  }
+    printByTimes(times = 1) {
+        for (let i = 0; i < times; i++) {
+            console.log(i, this.str);
+        }
+    }
+
+    print(str = this.str) {
+        console.log(str);
+    }
 
 }
 

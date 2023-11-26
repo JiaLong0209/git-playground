@@ -1,11 +1,11 @@
 module = {}
 
 function module.printByTimes(str)
-  return function(x) for i = 1, x or 1 do print(i .. ' hello, ' .. str) end end
+    return function(x) for i = 1, x or 1 do print(i .. ' hello, ' .. str) end end
 end
 
 function module.hello(fun)
-  return function(str) fun('hello, ' .. str) end
+    return function(str) fun('hello, ' .. str) end
 end
 
 -- local terms = { 'world', 'jialong', 'allen' }
