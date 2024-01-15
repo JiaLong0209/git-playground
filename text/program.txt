@@ -5,8 +5,9 @@ ex.sh
 b.js
 cool
 ex.sh
+prom.txt
 new.js
-program.txt
+prom.txt
 README.md
 
 ls >> program.txt
